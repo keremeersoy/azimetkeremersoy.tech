@@ -51,8 +51,8 @@ export default function Home() {
           <TypingAnimation className="text-2xl font-bold text-black dark:text-white" text="About Me" />
 
           <p>
-            Hello! I am Azimet Kerem Ersoy, a 21-year-old web developer and a fourth-year student at Kırıkkale
-            University Computer Engineering. I have been living in Ankara, which I love very much, for the last 21
+            Hello! I am Azimet Kerem Ersoy, a 23-year-old web developer and a fourth-year student at Kırıkkale
+            University Computer Engineering. I have been living in Ankara, which I love very much, for the last 23
             years. I live in Kırıkkale during my university years, but I often return to Ankara, balancing my academic
             studies with the vibrant life of the capital.
           </p>
