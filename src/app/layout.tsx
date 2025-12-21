@@ -10,6 +10,7 @@ import Navbar from '@/components/navbar';
 import { ScrollArea } from '@/components/ui/scroll-area';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://azimetkeremersoy.tech'),
   title: 'Azimet Kerem Ersoy | Web Developer & Software Engineer',
   description:
     'Full-stack web developer specializing in Next.js, TypeScript, and modern web technologies. Check out my portfolio, projects and experience.',
