@@ -38,13 +38,54 @@ export interface TimelineLog {
 
 export const timeline_data: TimelineLog[] = [
   {
+    id: 3,
+    year: "2024",
+    logs: [
+      {
+        title: "Part-time Frontend Developer at Jotform",
+        description: `As a Part-time Frontend Developer, I work with the {0} Enterprise Lead Generation team, focusing on driving customer acquisition and optimizing user engagement.
+
+        I play a key role in the A/B testing lifecycle, utilizing {0}'s inline packages to implement, run, and analyze tests to enhance conversion rates. I also contribute to strategic campaigns by developing targeted assets and features designed to attract Enterprise clients.
+
+        My responsibilities extend to building pixel-perfect Enterprise landing pages from Figma designs, managing the full development process through a strict CI/CD pipeline. I adhere to rigorous version control standards with Git and GitHub to ensure code quality and stability.
+
+        Furthermore, I develop internal tools and dashboards to streamline company operations. This role has been instrumental in advancing my skills in JavaScript, CDNs, and inline technologies, providing valuable industry experience at a major tech company alongside my studies.`,
+        links: [
+          {
+            url: "https://www.jotform.com/",
+            text: "Jotform",
+          },
+        ],
+      },
+      {
+        title: "Summer Intern at Jotform",
+        description: `From August 2024 to September 2024, I interned as a Front-End Developer with the Jotform Enterprise Upgrade team. Working alongside a 4-person team, we developed a specialized interface for the marketing department.
+
+        This interface empowered the marketing team to create and customize assets directly, eliminating their dependency on developers. Throughout my internship, I had the opportunity to enhance my skills by utilizing {0}'s proprietary technologies.`,
+        links: [
+          {
+            url: "https://www.jotform.com/",
+            text: "Jotform",
+          },
+        ],
+        image: {
+          url: "/jotform_logo.png",
+          title: "Jotform",
+          description: "Jotform Logo",
+          width: 600,
+          height: 165,
+        },
+      },
+    ],
+  },
+  {
     id: 1,
     year: "2023",
     logs: [
       {
         title: "Joined Pepteam",
         description: `In May 2023, I joined {0}, a dynamic 6-person startup, as a full-stack web developer. As the sole web developer on the team, I took on the challenge of creating a robust admin dashboard specifically designed for business owners.
-  
+
         Utilizing a modern tech stack that includes {1}, {2}, {3}, {4}, {5}, and {6}, I developed a comprehensive solution that allows business owners to efficiently manage their employees' statistics, tasks, shifts, feedback, and more. This dashboard streamlines administrative tasks, enhances overall functionality, and ensures a seamless user experience.
 
         At Pepteam, I also developed a superadmin dashboard for app administrators, enabling them to access and manage all users across the Pepteam app.
@@ -85,7 +126,7 @@ export const timeline_data: TimelineLog[] = [
           },
         ],
         image: {
-          url: "https://pepteam.io/wp-content/uploads/2023/01/pepteam-logo.png",
+          url: "/pepteam_logo.png",
           title: "Placeholder",
           description: "Placeholder image",
           width: 600,
@@ -111,6 +152,13 @@ export const timeline_data: TimelineLog[] = [
             text: "Google Developer Students Club at Kırıkkale University",
           },
         ],
+        image: {
+          url: "/gdsc_logo.png",
+          title: "Placeholder",
+          description: "Placeholder image",
+          width: 600,
+          height: 165,
+        },
       },
       {
         title: "SetCrews: Freelance Project Development Experience",
