@@ -16,7 +16,7 @@ const Navbar = () => {
   const closeDrawer = () => setIsOpen(false);
 
   return (
-    <div className="sticky inset-x-0 top-0 z-10 mx-auto flex h-12 w-full shrink-0 items-center overflow-hidden border-b bg-white text-sm font-medium lg:hidden">
+    <div className="sticky inset-x-0 top-0 z-10 mx-auto flex h-12 w-full shrink-0 items-center overflow-hidden border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 text-sm font-medium lg:hidden">
       <div className="flex justify-between w-full max-w-5xl mx-auto px-4 items-center">
         <Link href="/" className="inline-flex items-center gap-2 p-2 text-xs">
           <Avatar className="w-8 h-8">

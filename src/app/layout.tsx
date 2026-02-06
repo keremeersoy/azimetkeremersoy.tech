@@ -63,12 +63,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn('h-screen w-full flex', GeistSans.className)}>
-        {/* <ThemeProvider
+        <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="system"
           enableSystem
           disableTransitionOnChange
-        > */}
+        >
         <Sidebar />
 
         <div className="w-full h-full">
@@ -78,7 +78,7 @@ export default function RootLayout({
             <ScrollArea className="h-full max-h-dynamic-screen min-h-dynamic-screen overflow-y-auto overflow-x-hidden relative flex w-full flex-col">
               <div className="z-[1] w-full px-6 pb-32 pt-8 lg:px-8 lg:py-24">
                 <div className="mx-auto w-full lg:mb-0 lg:max-w-3xl">
-                  <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+                  <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(var(--dot-color)_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
                   {children}
                 </div>
@@ -86,7 +86,7 @@ export default function RootLayout({
             </ScrollArea>
           </div>
         </div>
-        {/* </ThemeProvider> */}
+        </ThemeProvider>
       </body>
     </html>
   );

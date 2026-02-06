@@ -30,7 +30,7 @@ const NavigationLink = ({
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center justify-between gap-2 rounded-lg p-2 hover:bg-gray-200"
+        className="flex items-center justify-between gap-2 rounded-lg p-2 hover:bg-accent hover:text-accent-foreground"
         onClick={onClick}
       >
         <span className="inline-flex items-center gap-2 font-medium">
@@ -54,22 +54,22 @@ const NavigationLink = ({
       href={href}
       className={cn(
         "group flex items-center justify-between rounded-lg p-2",
-        isActive ? "bg-black text-white" : "hover:bg-gray-200"
+        isActive ? "bg-primary text-primary-foreground" : "hover:bg-accent hover:text-accent-foreground"
       )}
       onClick={onClick}
     >
       <span className="flex items-center gap-2">
         {iconCmp}
-        <span className={cn("font-medium", isActive && "text-white")}>
+        <span className={cn("font-medium", isActive && "text-primary-foreground")}>
           {label}
         </span>
       </span>
       {shortcutNumber && (
         <span
           className={cn(
-            "hidden h-5 w-5 place-content-center rounded border border-gray-200 bg-gray-100 text-xs font-medium text-gray-500 transition-colors duration-200 group-hover:border-gray-300 lg:grid",
+            "hidden h-5 w-5 place-content-center rounded border border-border bg-muted text-xs font-medium text-muted-foreground transition-colors duration-200 group-hover:border-accent-foreground/10 lg:grid",
             isActive &&
-              "border-gray-600 bg-gray-700 text-gray-200 group-hover:border-gray-600"
+              "border-primary-foreground/20 bg-primary-foreground/20 text-primary-foreground group-hover:border-primary-foreground/20"
           )}
           title={`Shortcut key: ${shortcutNumber}`}
         >

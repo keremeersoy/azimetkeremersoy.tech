@@ -17,7 +17,7 @@ const MenuContent = ({
       <div className="flex w-full flex-col gap-4">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 p-2 -mx-1.5 -my-1 rounded bg-transparent px-1.5 py-1 transition-colors duration-300 hover:bg-gray-200"
+          className="inline-flex items-center gap-2 p-2 -mx-1.5 -my-1 rounded bg-transparent px-1.5 py-1 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground"
           onClick={navigationLinkOnClick}
         >
           <Avatar className="w-10 h-10">
@@ -28,7 +28,7 @@ const MenuContent = ({
             <span className="font-semibold tracking-tight">
               Azimet Kerem Ersoy
             </span>
-            <span className="text-gray-600">Web Developer</span>
+            <span className="text-muted-foreground">Web Developer</span>
           </div>
         </Link>
 
@@ -47,7 +47,7 @@ const MenuContent = ({
       </div>
       <hr className="my-4" />
       <div className="flex flex-col gap-2 text-sm">
-        <span className="px-2 text-xs font-medium leading-relaxed text-gray-600">
+        <span className="px-2 text-xs font-medium leading-relaxed text-muted-foreground">
           Links
         </span>
         <div className="flex flex-col gap-1">
@@ -62,9 +62,9 @@ const MenuContent = ({
           ))}
         </div>
       </div>
-      {/* <div className="h-full flex items-end">
-      <ToggleTheme />
-    </div> */}
+      <div className="h-full flex items-end">
+        <ToggleTheme />
+      </div>
     </div>
   );
 };

@@ -93,7 +93,7 @@ export const timeline_data: TimelineLog[] = [
         Additionally, under Pepteam, a mobile application called {7} was developed. I contributed by creating an internal app management website, allowing for efficient content management within the application.`,
         links: [
           {
-            url: "https://www.pepteam.io",
+            url: "https://www.pepteam.net",
             text: "Pepteam",
           },
           {

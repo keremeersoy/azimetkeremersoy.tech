@@ -4,7 +4,7 @@ import { Icons } from "@/lib/data";
 export function OrbitCircle() {
   return (
     <div className="relative flex h-[450px] w-full flex-col items-center justify-center overflow-hidden">
-      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-500 bg-clip-text text-center text-6xl font-semibold leading-none text-transparent dark:from-white dark:to-black">
+      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-500 bg-clip-text text-center text-6xl font-semibold leading-none text-transparent dark:from-white dark:to-zinc-500">
         Techs
       </span>
 

@@ -41,11 +41,11 @@ export default function Home() {
           </Avatar>
           <div className="flex flex-col">
             <span className="font-semibold tracking-tight text-4xl">Azimet Kerem Ersoy</span>
-            <span className="text-gray-600 text-xl">Web Developer</span>
+            <span className="text-muted-foreground text-xl">Web Developer</span>
           </div>
         </div>
 
-        <hr className="my-8" />
+        <hr className="my-8 border-border" />
 
         <div className="flex flex-col gap-4">
           <TypingAnimation className="text-2xl font-bold text-black dark:text-white" text="About Me" />
@@ -72,7 +72,7 @@ export default function Home() {
             As a full-stack web developer, I am eager to leverage the latest technologies in my projects. My journey
             began with an internship at Pepteam in Ankara, where I quickly advanced to become the sole web developer.
             One of my significant achievements at Pepteam was integrating our mobile application with the{' '}
-            <CustomizedLink href="https://www.pepteam.io">web</CustomizedLink>, where I tackled and resolved complex
+            <CustomizedLink href="https://www.pepteam.net">web</CustomizedLink>, where I tackled and resolved complex
             challenges using technologies such as <CustomizedLink href="https://nextjs.org/">Next.js</CustomizedLink>,{' '}
             <CustomizedLink href="https://firebase.google.com/products/auth">Firebase Authentication</CustomizedLink>,{' '}
             <CustomizedLink href="https://firebase.google.com/products/firestore">Firestore</CustomizedLink>,{' '}

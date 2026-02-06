@@ -25,7 +25,7 @@ export const personSchema: WithContext<Person> = {
   worksFor: {
     '@type': 'Organization',
     name: 'Pepteam',
-    url: 'https://pepteam.io',
+    url: 'https://pepteam.net',
   },
   alumniOf: {
     '@type': 'Organization',
