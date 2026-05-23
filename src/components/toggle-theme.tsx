@@ -7,7 +7,7 @@ import { useTheme } from "next-themes";
 import { Switch } from "@/components/ui/switch";
 
 export function ToggleTheme() {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme, resolvedTheme } = useTheme();
   const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
@@ -22,7 +22,7 @@ export function ToggleTheme() {
     <div className="flex items-center space-x-3">
       <SunIcon className="size-4" />
       <Switch
-        checked={theme === "dark"}
+        checked={resolvedTheme === "dark"}
         onCheckedChange={(checked) => setTheme(checked ? "dark" : "light")}
         aria-label="Toggle theme"
       />
